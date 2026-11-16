@@ -1,5 +1,5 @@
 # EX No.4.2. CUT SECTION OF SOLIDS
-## DATE:
+## DATE:09/11/26
 
 ## AIM: 
 To create the solid model from given drawing and section the solid model
@@ -15,9 +15,13 @@ To create the solid model from given drawing and section the solid model
 
 1. Open Fusion 360 and select the **Design → Solid** workspace.
 2. Click **Create Sketch** and select the Front (XZ) plane.
-3. Choose **Sketch → Line** and draw a vertical construction line through the origin. This will act as the centre axis of the wine glass.
-4. Use the **Construction** option to convert the line into a construction line.
-5. This centre line will be used as the axis for the Revolve operation.
+3. <img width="216" height="171" alt="Screenshot 2026-11-11 204524 - Copy (2)" src="https://github.com/user-attachments/assets/0e7777ae-ee98-4f6b-bc47-69a372800e99" />
+
+4. Choose **Sketch → Line** and draw a vertical construction line through the origin. This will act as the centre axis of the wine glass.
+5. <img width="542" height="767" alt="Screenshot 2026-11-11 204541 - Copy (2)" src="https://github.com/user-attachments/assets/e1e1ad1d-e5c0-4d8d-b912-f1f7a9772ae8" />
+
+6. Use the **Construction** option to convert the line into a construction line.
+7. This centre line will be used as the axis for the Revolve operation.
 
 ### Step 2: Create the base profile
 
@@ -40,14 +44,18 @@ To create the solid model from given drawing and section the solid model
 ### Step 4: Create the bowl profile
 
 18. Select **Sketch → Arc → 3-Point Arc** to create the curved outer profile of the bowl.
-19. Start the arc from the upper end of the stem.
-20. Draw the curved profile outward and upward to form the rounded bowl shape.
-21. Use another arc to construct the inner wall of the bowl.
-22. Maintain a uniform wall thickness of approximately 0.148 units as indicated in the sectional reference.
-23. Connect the inner and outer profiles at the top to form the rim of the glass.
-24. Use the **Dimension** tool to adjust the required radii and heights according to the sectional drawing.
-25. Connect all the sketch elements to form one continuous closed profile.
-26. Click **Finish Sketch**.
+19. <img width="448" height="347" alt="Screenshot 2026-11-16 091632" src="https://github.com/user-attachments/assets/c8e19f2a-4431-45bc-b394-b4adf634b0b1" />
+
+20. Start the arc from the upper end of the stem.
+21. Draw the curved profile outward and upward to form the rounded bowl shape.
+22. Use another arc to construct the inner wall of the bowl.
+23. Maintain a uniform wall thickness of approximately 0.148 units as indicated in the sectional reference.
+24. Connect the inner and outer profiles at the top to form the rim of the glass.
+25. Use the **Dimension** tool to adjust the required radii and heights according to the sectional drawing.
+26. <img width="562" height="513" alt="Screenshot 2026-11-11 204618" src="https://github.com/user-attachments/assets/9ab895b5-886c-4fe4-85dd-04461128c909" />
+
+27. Connect all the sketch elements to form one continuous closed profile.
+28. Click **Finish Sketch**.
 
 ### Step 5: Revolve the wine glass profile
 
@@ -63,7 +71,9 @@ To create the solid model from given drawing and section the solid model
 33. Select the top face of the bowl and click **Create Sketch**.
 34. Choose **Sketch → Circle → Center Diameter Circle** if a circular opening needs to be constructed separately.
 35. Use the **Extrude** command with the **Cut** operation to remove the required internal material, if the inner cavity was not already included in the revolved profile.
-36. Maintain the required wall thickness and bowl depth according to the sectional drawing.
+36. <img width="460" height="617" alt="Screenshot 2026-11-11 212828" src="https://github.com/user-attachments/assets/e079efe0-a637-4f20-afe9-8fc65b638782" />
+
+37. Maintain the required wall thickness and bowl depth according to the sectional drawing.
 
 ### Step 7: Final inspection and drawing
 
